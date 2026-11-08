@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airops",
+      "description": "Connect AI agents to AirOps using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airops/SKILL.md": "bc989bd1a5b813e1e478383990ec66170febc29fcbf3beb271c3c2541b72c087"
+  }
+}
