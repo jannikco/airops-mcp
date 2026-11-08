@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "2f9292fa5918a55c918375316ef230964062f9aea0493fd045f4a989b17b68c4",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.airops.com/public_api/openapi.yaml"
+  ],
+  "id": "airops-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AirOps MCP setup and connection checker",
+  "description": "Generate AirOps MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airops",
+  "appName": "AirOps",
+  "providerDocs": "https://api.airops.com/public_api/openapi.yaml",
+  "providerWebsite": "https://www.airops.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.airops.com/api-reference/using-the-api/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airops-mcp"
+}
